@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.80d35b0b.css",
-    "main.js": "/static/js/main.b33fdde6.js",
+    "main.js": "/static/js/main.e4408b9b.js",
     "static/media/poster.jpg": "/static/media/poster.a7524e5df9510d4c833c.jpg",
     "static/media/ttn-logo-name.png": "/static/media/ttn-logo-name.b1c37a1192d75f0dd5d6.png",
     "static/media/ttn-logo.png": "/static/media/ttn-logo.712d8d8004c9153f050f.png",
     "static/media/default_image.jpg": "/static/media/default_image.042eb33250ef1f00c912.jpg",
     "index.html": "/index.html",
     "main.80d35b0b.css.map": "/static/css/main.80d35b0b.css.map",
-    "main.b33fdde6.js.map": "/static/js/main.b33fdde6.js.map"
+    "main.e4408b9b.js.map": "/static/js/main.e4408b9b.js.map"
   },
   "entrypoints": [
     "static/css/main.80d35b0b.css",
-    "static/js/main.b33fdde6.js"
+    "static/js/main.e4408b9b.js"
   ]
 }

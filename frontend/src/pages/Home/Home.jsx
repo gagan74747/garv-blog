@@ -38,7 +38,7 @@ function Home({ render }) {
     //   setLoading(true);
     // }
     try {
-      const result = await axios.get("http://localhost:8080/api/posts", {
+      const result = await axios.get("https://garv-blog.onrender.com/api/posts", {
         params: { page: pageRef.current },
         withCredentials: true,
       });
