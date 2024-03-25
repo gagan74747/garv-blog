@@ -45,7 +45,7 @@ function CreatePost() {
     setLoading(true);
     try {
       const res = await axios.post(
-        "http://localhost:8080/api/createpost",
+        "https://garv-blog.onrender.com/api/createpost",
         post,
         {
           withCredentials: true, // Include cookies with the request

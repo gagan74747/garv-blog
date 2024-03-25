@@ -31,7 +31,7 @@ function UpdatePost() {
     try {
       const getdata = async () => {
         const res = await axios.get(
-          `http://localhost:8080/api/post/${params.id}`,
+          `https://garv-blog.onrender.com/api/post/${params.id}`,
           {
             withCredentials: true,
           },
@@ -68,7 +68,7 @@ function UpdatePost() {
   };
   const submitForm = async () => {
     try {
-      await axios.put(`http://localhost:8080/api/update/${params.id}`, post, {
+      await axios.put(`https://garv-blog.onrender.com/api/update/${params.id}`, post, {
         withCredentials: true,
       });
       navigate("/");

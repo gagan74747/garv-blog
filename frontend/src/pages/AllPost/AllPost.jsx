@@ -16,7 +16,7 @@ function AllPost() {
     try {
       setLoading(true);
       const response = await axios.get(
-        `http://localhost:8080/api/getuser/${params.id}`,
+        `https://garv-blog.onrender.com/api/getuser/${params.id}`,
         {
           withCredentials: true,
         },

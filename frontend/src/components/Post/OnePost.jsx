@@ -35,7 +35,7 @@ const OnePost = ({
   };
   const deletePost = async (id) => {
     try {
-      await axios.delete(`http://localhost:8080/api/delete/${id}`, {
+      await axios.delete(`https://garv-blog.onrender.com/api/delete/${id}`, {
         withCredentials: true,
       });
     window.location.reload()

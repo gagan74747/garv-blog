@@ -24,7 +24,7 @@ function Login({ setRender }) {
       };
 
       try {
-        await axios.post("http://localhost:8080/api/create", userData, {
+        await axios.post("https://garv-blog.onrender.com/api/create", userData, {
           withCredentials: true, // Include credentials (cookies) with the request
         });
       } catch (err) {
