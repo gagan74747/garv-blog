@@ -22,7 +22,7 @@ function Home({ render }) {
   const posts = useSelector((state) => state.rootReducer.posts);
   const [post, setPost] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [isScroll, setIsScroll] = useState(true);
+  // const [isScroll, setIsScroll] = useState(true);
   const dispatch = useDispatch();
 
   const compareDates = (a, b) => {
@@ -34,11 +34,11 @@ function Home({ render }) {
   };
 
   const getPost = async () => {
-    if (isScroll) {
-      setLoading(true);
-    }
+    // if (isScroll) {
+    //   setLoading(true);
+    // }
     try {
-      const result = await axios.get("https://garv-blog.onrender.com/api/posts", {
+      const result = await axios.get("http://localhost:8080/api/posts", {
         params: { page: pageRef.current },
         withCredentials: true,
       });
@@ -74,7 +74,7 @@ function Home({ render }) {
   }, [posts, sort]);
 
   useEffect(() => {
-    setIsScroll(false);
+    // setIsScroll(false);
     const handleScroll = () => {
       const { scrollTop, scrollHeight, clientHeight } =
         document.documentElement;
