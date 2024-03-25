@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.poster {
+  height: 60vh;
+  width: 95vw;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.text {
+  font-size: 60px;
+  font-weight: 600;
+}

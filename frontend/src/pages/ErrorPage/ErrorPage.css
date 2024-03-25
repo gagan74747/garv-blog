@@ -1,0 +1,33 @@
+/* Error page */
+
+.error-container {
+  height: 75vh;
+  margin-top: 10px;
+}
+.error-container h1 {
+  margin: 0;
+  font-size: 40px;
+}
+.err_box {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err_btn {
+  background-color: rgb(25, 118, 210);
+  color: white;
+  font-size: large;
+  font-weight: 200;
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.err_btn:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
